@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App.tsx";
 import "./index.css";
 import { ThemeProvider } from "./components/theme-provider.tsx";
-import Login from "./components/Auth/pages/Login";
+import Login from "./components/Auth/pages/Login.tsx";
 import Register from "./components/Auth/pages/Register";
 import Profile from "./components/Auth/userProfile/Profile.tsx";
 import Home from "./Pages/Home.tsx";

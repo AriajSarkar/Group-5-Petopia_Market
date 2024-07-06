@@ -102,13 +102,11 @@ const Profile = () => {
             <div className="grid gap-4 m-4 overflow-hidden shadow-md rounded-b-lg dark:shadow-white sm:grid-cols-10 sm:rounded-lg">
                 <div className='flex flex-auto justify-center m-2 p-2 sm:col-span-3'>
                     <div className='flex flex-col items-center'>
-                    {avatar && (
                         <img
                             className='w-20 h-20 rounded-lg'
                             src={avatar.url}
                             alt="Avatar"
                         />
-                    )}
                     <div className="flex justify-end mt-4">
                         <button
                             type='button'
