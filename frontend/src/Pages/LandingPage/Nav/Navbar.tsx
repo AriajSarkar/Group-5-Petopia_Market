@@ -131,7 +131,7 @@ const Navbar: React.FC = () => {
                                 Subscription
                             </DropdownMenuItem>
                             <DropdownMenuItem className="bg-border text-red-500/100 dark:text-red-600/100 cursor-pointer">
-                                <Logout buttonLabel="Logout" />
+                                <Logout />
                             </DropdownMenuItem>
                         </DropdownMenuContent>
                     </DropdownMenu>
